@@ -67,8 +67,5 @@ namespace _5A_Examen_final_2B_FG
                 Jugar("Tijera");
             }
         }
-
-
-        //Prueba comentario
     }
 }
