@@ -46,6 +46,7 @@ namespace _5A_Examen_final_2B_FG
             this.btnPiedra.TabIndex = 0;
             this.btnPiedra.Text = "Piedra";
             this.btnPiedra.UseVisualStyleBackColor = true;
+            this.btnPiedra.Click += new System.EventHandler(this.btnPiedra_Click_1);
             // 
             // btnPapel
             // 
@@ -56,6 +57,7 @@ namespace _5A_Examen_final_2B_FG
             this.btnPapel.TabIndex = 1;
             this.btnPapel.Text = "Papel";
             this.btnPapel.UseVisualStyleBackColor = true;
+            this.btnPapel.Click += new System.EventHandler(this.btnPapel_Click_1);
             // 
             // btnTijera
             // 
@@ -66,16 +68,17 @@ namespace _5A_Examen_final_2B_FG
             this.btnTijera.TabIndex = 2;
             this.btnTijera.Text = "Tijera";
             this.btnTijera.UseVisualStyleBackColor = true;
+            this.btnTijera.Click += new System.EventHandler(this.btnTijera_Click_1);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(161, 36);
+            this.label1.Location = new System.Drawing.Point(192, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(197, 31);
+            this.label1.Size = new System.Drawing.Size(124, 31);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Gana o pierde";
+            this.label1.Text = "A jugar!!";
             // 
             // lblEleccionComputadora
             // 

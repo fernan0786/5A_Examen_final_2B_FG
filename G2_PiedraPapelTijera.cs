@@ -19,21 +19,6 @@ namespace _5A_Examen_final_2B_FG
             InitializeComponent();
         }
 
-        private void btnPiedra_Click(object sender, EventArgs e)
-        {
-            Jugar("Piedra");
-        }
-
-        private void btnPapel_Click(object sender, EventArgs e)
-        {
-            Jugar("Papel");
-        }
-
-        private void btnTijera_Click(object sender, EventArgs e)
-        {
-            Jugar("Tijera");
-        }
-
         private void Jugar(string eleccionJugador)
         {
             string[] opciones = { "Piedra", "Papel", "Tijera" };
@@ -61,5 +46,29 @@ namespace _5A_Examen_final_2B_FG
 
             lblResultado.Text = resultado;
         }
+
+        private void btnPiedra_Click_1(object sender, EventArgs e)
+        {
+            {
+                Jugar("Piedra");
+            }
+        }
+
+        private void btnPapel_Click_1(object sender, EventArgs e)
+        {
+            {
+                Jugar("Papel");
+            }
+        }
+
+        private void btnTijera_Click_1(object sender, EventArgs e)
+        {
+            {
+                Jugar("Tijera");
+            }
+        }
+
+
+        //Prueba comentario
     }
 }
